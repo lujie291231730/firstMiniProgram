@@ -1,0 +1,5 @@
+<!-- <van-button type="primary">按钮</van-button> -->
+<image src="../../image/山东德州image.jpg"></image>
+<view class="box"></view>
+<!-- <open-data type="userAvatarUrl"></open-data> -->
+<button open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">授权登录</button>

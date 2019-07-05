@@ -1,0 +1,12 @@
+<view>{{msg}}</view>
+<image src="{{img}}"></image>
+<view wx:for="{{arr}}" wx:key="{{index}}">
+  {{index}} {{item}}
+</view>
+
+<view class="box">
+  <view class="child" hidden="{{login}}"></view>
+</view>
+
+<button size="mini" bindtap="add">点我+1</button>
+<view>{{count}}</view>
